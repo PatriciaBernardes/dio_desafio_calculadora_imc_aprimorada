@@ -1,0 +1,10 @@
+^D:\DIO_PROJECTS\CALCULADORA_IMC\BUILD\WINDOWS\CMAKEFILES\4ED328ED146052F89ABC4B483D876A31\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Dio_projects/calculadora_imc/windows -BD:/Dio_projects/calculadora_imc/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Dio_projects/calculadora_imc/build/windows/calculadora_imc.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

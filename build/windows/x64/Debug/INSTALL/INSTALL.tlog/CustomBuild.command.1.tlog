@@ -1,0 +1,10 @@
+^D:\DIO_PROJECTS\CALCULADORA_IMC\BUILD\WINDOWS\CMAKEFILES\4ED328ED146052F89ABC4B483D876A31\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^D:\DIO_PROJECTS\CALCULADORA_IMC\BUILD\WINDOWS\CMAKEFILES\E5934DBA5620C8FE3D0E21CE62C98469\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\framework\flutter PROJECT_DIR=D:\Dio_projects\calculadora_imc FLUTTER_ROOT=C:\framework\flutter FLUTTER_EPHEMERAL_DIR=D:\Dio_projects\calculadora_imc\windows\flutter\ephemeral PROJECT_DIR=D:\Dio_projects\calculadora_imc FLUTTER_TARGET=D:\Dio_projects\calculadora_imc\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Dio_projects\calculadora_imc\.dart_tool\package_config.json C:/framework/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DIO_PROJECTS\CALCULADORA_IMC\BUILD\WINDOWS\CMAKEFILES\5E83283D9A5A337FEEE39163086B1481\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DIO_PROJECTS\CALCULADORA_IMC\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Dio_projects/calculadora_imc/windows -BD:/Dio_projects/calculadora_imc/build/windows --check-stamp-file D:/Dio_projects/calculadora_imc/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
